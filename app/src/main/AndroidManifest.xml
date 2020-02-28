@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="com.versatile.git_search">
+    package="com.versatile.github_search">
 
     <uses-permission android:name="android.permission.INTERNET"/>
 
@@ -14,8 +14,9 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         tools:ignore="GoogleAppIndexingWarning"
+        android:name=".MyApplication"
         >
-        <activity android:name="com.versatile.git_search.presentation.main.MainActivity">
+        <activity android:name="com.versatile.github_search.presentation.main.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

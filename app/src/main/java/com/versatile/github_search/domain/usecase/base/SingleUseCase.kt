@@ -1,4 +1,4 @@
-package com.versatile.git_search.domain.usecase.base
+package com.versatile.github_search.domain.usecase.base
 
 import io.reactivex.Single
 import io.reactivex.android.schedulers.AndroidSchedulers

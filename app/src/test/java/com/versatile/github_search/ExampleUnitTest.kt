@@ -1,4 +1,4 @@
-package com.versatile.git_search
+package com.versatile.github_search
 
 import org.junit.Test
 

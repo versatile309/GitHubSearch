@@ -1,4 +1,4 @@
-package com.versatile.git_search
+package com.versatile.github_search
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4

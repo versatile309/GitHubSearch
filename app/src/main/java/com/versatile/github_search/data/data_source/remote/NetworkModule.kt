@@ -1,4 +1,4 @@
-package com.versatile.git_search.data.data_source.remote
+package com.versatile.github_search.data.data_source.remote
 
 import dagger.Module
 import dagger.Provides
@@ -12,15 +12,15 @@ import retrofit2.converter.gson.GsonConverterFactory
 object NetworkModule {
 
     /**
-     * API URL 선언
+     * GitHubAPI URL 선언
      */
-    private const val BASE_URL = ""
+    private const val BASE_URL = "https://api.github.com/"
 
     @Provides
     @Reusable
     @JvmStatic
-    internal fun provideAPI(retrofit: Retrofit): API {
-        return retrofit.create(API::class.java)
+    internal fun provideAPI(retrofit: Retrofit): GitHubAPI {
+        return retrofit.create(GitHubAPI::class.java)
     }
 
     @Provides
